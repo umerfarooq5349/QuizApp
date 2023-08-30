@@ -9,7 +9,7 @@ import { Router, RouterLink } from '@angular/router';
 export class WelcomComponent {
   @ViewChild('name') namekey!: ElementRef;
 
-  // userName: string = '';
+  userName: string = '';
 
 
   constructor(private router: Router) { }
