@@ -1,0 +1,47 @@
+ul {
+    list-style: none;
+    color: yellow;
+}
+
+ul li::before {
+    color: rgb(255, 255, 255);
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -1em;
+}
+
+.container {
+    background-color: #28282b;
+    border-radius: 30px;
+
+}
+
+.container:hover {
+    background-color: #28282b;
+    border-radius: 30px;
+    box-shadow: inset;
+    box-shadow: 5px 5px 30px #000;
+
+}
+
+h4, h1 {
+    color: white;
+}
+
+.btn:hover {
+    border: 2px solid yellow;
+    color: #28282b;
+    margin-bottom: 10px;
+    background-color: yellow;
+
+}
+
+.btn {
+    border: 2px solid yellow;
+    color: yellow;
+    margin-bottom: 10px;
+    background-color: #28282b;
+
+}
