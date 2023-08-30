@@ -1,4 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, } from '@angular/core';
 import { interval } from 'rxjs'
 import { QuestionServiceService } from 'src/app/service/question-service.service';
 
